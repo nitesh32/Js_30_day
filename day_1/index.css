@@ -1,0 +1,46 @@
+body{
+    height: 100vh;
+    width: 100vw;
+    margin: 0px;
+    background-image: url("img_1.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#butts{
+    height: 80px;
+    width: 80%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+
+#butts div{
+    height: 70px;
+    width: 70px;
+    background-color: transparent;
+    border: 2px solid black;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: column;
+    
+}
+.active{
+    scale: 1.1;
+    background-color: #ffc600;
+    box-shadow: 0px -1px 22px 7px rgba(255,200,0,1);
+}
+h1{
+    color: white;
+    margin: 0px;
+}
+p{
+    color: #ffc600;
+    font-size: 0.8rem;
+    margin: 0px;
+}
