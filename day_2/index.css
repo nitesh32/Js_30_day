@@ -1,0 +1,77 @@
+body{
+    height: 100vh;
+    width: 100vw;
+    margin: 0px;
+    background-image: url("img_1.jpg") ;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+:root{
+   --blc :rgb(3,66,155);
+}
+
+#outer-container{
+    background-color: white;
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#inner-container{
+    background-color: var(--blc);
+    height: 180px;
+    width: 180px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+#hour{
+    height: 5px;
+    width: 85px;
+    background-color: white;
+    position: absolute;
+    left: 5px;
+    transform-origin: 100%;
+}
+#min{
+    height: 5px;
+    width: 85px;
+    background-color: white;
+    position: absolute;
+    left: 5px;
+    transform-origin: 100%;
+}
+#sec{
+    height: 5px;
+    width: 85px;
+    background-color: white;
+    position: absolute;
+    left: 5px;
+    transform-origin: 100%;
+}
+.dots{
+    height: 3px;
+    width: 3px;
+    background-color: white;
+    border-radius: 50%;
+    position: absolute;
+}
+#one{
+    left:1px;
+}
+#two{
+    top:1px;
+}
+#three{
+    right:1px;
+}
+#four{
+    bottom: 1px;
+}
