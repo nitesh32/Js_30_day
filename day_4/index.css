@@ -11,6 +11,10 @@ body{
   width: 100vw;
   background-image: url("img_1.jpg");
   background-size: cover;
+  display: flex;
+  margin: 0px;
+  align-items: center;
+  justify-content: center;
 }
 .cube {
   height: 200px;
